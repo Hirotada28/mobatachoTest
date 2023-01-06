@@ -5,6 +5,10 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Plugin.CurrentActivity;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Distribute;
 
 namespace mobatako.Droid
 {
@@ -15,9 +19,13 @@ namespace mobatako.Droid
         {
             base.OnCreate(savedInstanceState);
 
+            Distribute.SetEnabledForDebuggableBuild(true);
+            AppCenter.Start("bbd17276-baee-4fe7-ac31-34395f0ba7a0", typeof(Analytics), typeof(Crashes));
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            Distribute.UpdateTrack = UpdateTrack.Private;
+            Distribute.CheckForUpdate();
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

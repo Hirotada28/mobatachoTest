@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.Android/mobatako.Android.csproj": {}
+    "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako.Android\\mobatako.Android.csproj": {}
   },
   "projects": {
-    "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.Android/mobatako.Android.csproj": {
+    "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako.Android\\mobatako.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.Android/mobatako.Android.csproj",
+        "projectUniqueName": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako.Android\\mobatako.Android.csproj",
         "projectName": "mobatako.Android",
-        "projectPath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.Android/mobatako.Android.csproj",
-        "packagesPath": "/Users/yukachin/.nuget/packages/",
-        "outputPath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.Android/obj/",
+        "projectPath": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako.Android\\mobatako.Android.csproj",
+        "packagesPath": "C:\\Users\\ams\\.nuget\\packages\\",
+        "outputPath": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/yukachin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\ams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid12.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/mobatako.csproj": {
-                "projectPath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/mobatako.csproj"
+              "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\mobatako.csproj": {
+                "projectPath": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\mobatako.csproj"
               }
             }
           }
@@ -36,42 +42,64 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AppCenter.Distribute": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.2, )"
             },
             "Plugin.CurrentActivity": {
               "target": "Package",
               "version": "[2.1.0.4, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.4, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2545, )"
             }
           }
         }
       }
     },
-    "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/mobatako.csproj": {
+    "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\mobatako.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/mobatako.csproj",
+        "projectUniqueName": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\mobatako.csproj",
         "projectName": "mobatako",
-        "projectPath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/mobatako.csproj",
-        "packagesPath": "/Users/yukachin/.nuget/packages/",
-        "outputPath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako/obj/",
+        "projectPath": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\mobatako.csproj",
+        "packagesPath": "C:\\Users\\ams\\.nuget\\packages\\",
+        "outputPath": "C:\\GitRsv\\AppCenter\\mobatachoTest\\mobatako\\mobatako\\mobatako\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/yukachin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\ams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,6 +118,18 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AppCenter.Distribute": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -98,7 +138,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.2, )"
             },
             "Plugin.Permissions": {
               "target": "Package",
@@ -108,13 +148,17 @@
               "target": "Package",
               "version": "[4.5.0.6, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.4, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2545, )"
             }
           },
           "imports": [
@@ -127,7 +171,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/yukachin/Library/Caches/VisualStudio/17.0/MSBuild/75538_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

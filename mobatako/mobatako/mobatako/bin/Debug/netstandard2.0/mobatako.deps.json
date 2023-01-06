@@ -9,6 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "mobatako/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.1",
+          "Microsoft.AppCenter.Crashes": "5.0.1",
+          "Microsoft.AppCenter.Distribute": "5.0.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.2",
           "Plugin.Permissions": "6.0.1",
@@ -19,6 +22,47 @@
         },
         "runtime": {
           "mobatako.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -147,6 +191,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FaFm30WIY0NxeEdwkcU7ebkHLlAkPFaXQrakVYnmAdKJTQ8Ox6qoGbgjllfhYrZ8UvEXLaVwMr+K9ieGNSd2og==",
+      "path": "microsoft.appcenter/5.0.1",
+      "hashPath": "microsoft.appcenter.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w7TsuaybdbnwvSsln6s0vydhT/1B1lp2zGRYG/Flc1kAtvEeW7K6y3AiKokpWoZJgV3OyERTNJNzNhuYR5Lb6A==",
+      "path": "microsoft.appcenter.analytics/5.0.1",
+      "hashPath": "microsoft.appcenter.analytics.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TNKkvX9H8fSRCgkFwvrPxBRyrhyX8x05RyyeVUL2XUPPM7SnXUY9Ef6BP2ZRbBU2+IbKBJdPFeRdUmVleAjQpg==",
+      "path": "microsoft.appcenter.crashes/5.0.1",
+      "hashPath": "microsoft.appcenter.crashes.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Distribute/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gTQQRBfvIgWIrUHiv/cDqWVgMCVqBtOjFu5wr7++qMeCgTzkRXJTH55Sj0/ZtwFUI0X6ycx+7B0OLzE+mwcGqQ==",
+      "path": "microsoft.appcenter.distribute/5.0.1",
+      "hashPath": "microsoft.appcenter.distribute.5.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
