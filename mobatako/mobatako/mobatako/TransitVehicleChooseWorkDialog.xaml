@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="mobatako.TransitVehicleChooseWorkDialog"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HasShadow="False" Padding="5" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="260" CornerRadius="15" BorderColor="Gray" Margin="0, 0, 0, 20">
+                <Label Text="降車後の作業を &#10; 選択してください" HorizontalTextAlignment="Center" FontSize="20" TextColor="Black"/>
+            </Frame>
+            <ScrollView Padding="40, 0, 40, 0">
+                <StackLayout x:Name="workStateBtns">
+                </StackLayout>
+            </ScrollView>
+            <AbsoluteLayout VerticalOptions="FillAndExpand">
+                <Button Text="キャンセル" Clicked="TransitCancelButton" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 1, AutoSize, AutoSize" WidthRequest="250" TextColor="#3399ff" FontSize="20" Background="white" BorderColor="#3399ff" BorderWidth="1" Margin="30,5,30,5"/>
+            </AbsoluteLayout>
+            <Label Text="[0201]" HorizontalTextAlignment="End" VerticalTextAlignment="End" Margin="0, 0, 20, 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

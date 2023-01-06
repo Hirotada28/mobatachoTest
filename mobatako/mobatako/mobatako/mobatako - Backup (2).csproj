@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="0001_Transit_vehicle_choosing_work_dialog.xaml.cs">
+      <DependentUpon>Transit_vehicle_choosing_work_dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="0000_Splash.xaml.cs">
+      <DependentUpon>0000_Splash.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="0001_Login.xaml.cs">
+      <DependentUpon>0001_Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="0101_Activity_auto_searching_vehicle_splash.xaml.cs">
+      <DependentUpon>0101_Activity_auto_searching_vehicle_splash.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="0104_start_crewing_confirm_activity.xaml.cs">
+      <DependentUpon>0104_start_crewing_confirm_activity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StartCrewingConfirmActivity.xaml.cs">
+      <DependentUpon>StartCrewingConfirmActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Splash.xaml.cs">
+      <DependentUpon>Splash.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ChoosingVehicleActivity.xaml.cs">
+      <DependentUpon>ChoosingVehicleActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ChoosingVehicleConditionDialog.xaml.cs">
+      <DependentUpon>ChoosingVehicleConditionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ActivityAutoSearchingVehicleSplash.xaml.cs">
+      <DependentUpon>ActivityAutoSearchingVehicleSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ID0203_sending_tacho_data_splash_activity.xaml.cs">
+      <DependentUpon>ID0203_sending_tacho_data_splash_activity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ID0302_logout.xaml.cs">
+      <DependentUpon>ID0302_logout.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

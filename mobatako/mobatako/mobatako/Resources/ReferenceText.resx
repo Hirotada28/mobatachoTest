@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	
+	<!-- global -->
+	<data name="server_api_key">
+		<value></value>
+    </data>
+	<data name="db_name">
+		<value></value>
+    </data>
+	<data name="web_api_base_url">
+		<value></value>
+    </data>
+	<data name="digitachoFeature">
+		<value></value>
+    </data>
+	<data name="cloudDebugFeature">
+		<value></value>
+    </data>
+
+	<!-- 画面ID -->
+
+
+	<!-- Splash Activity -->
+	<data name="splash_announce">
+		<value>起動しています。</value>
+    </data>
+	<data name="splash_desc_logo">
+		<value>logo image</value>
+    </data>
+
+	<!-- Login Activity -->
+	<data name="login_user_id_hint">
+		<value>ログインID</value>
+    </data>
+	<data name="login_user_pw_hint">
+		<value>パスワード</value>
+    </data>
+	<data name="login_check_view_password">
+		<value>パスワードを表示する</value>
+    </data>
+	<data name="login_check_save_login">
+		<value>ログイン情報を保持する</value>
+    </data>
+	<data name="login_btn_login">
+		<value>ログインする</value>
+    </data>
+	<data name="login_desc_logo">
+		<value>logo image</value>
+    </data>
+	<data name="login_desc_user_icon">
+		<value>user icon</value>
+    </data>
+	<data name="login_desc_password_icon">
+		<value>password icon</value>
+    </data>
+
+	<!-- Error Popup -->
+	<data name="error_connection_fail">
+		<value>サーバーとの通信が出来ません</value>
+    </data>
+	<data name="error_connection_fail_description">
+		<value>現在、サーバーと通信できません。しばらくしてから起動して下さい。</value>
+    </data>
+	<data name="error_login_fail">
+		<value>ログインエラー</value>
+    </data>
+	<data name="error_login_without_company_code">
+		<value>ユーザーコード＠企業団体コード　の形式で入力して下さい。</value>
+    </data>
+	<data name="error_login_fail_message">
+		<value>ログインに失敗しました。IDとパスワードを確認して下さい。</value>
+    </data>
+	<data name="error_login_fail_description">
+		<value>ログインに失敗しました。ログインID・パスワードを再度確認してからログインして下さい。</value>
+    </data>
+	<data name="error_internal">
+		<value>内部処理失敗</value>
+    </data>
+	<data name="error_internal_description">
+		<value>内部処理で異常が発生しました。ログイン画面に戻ります。</value>
+    </data>
+	<data name="error_ble_disabled">
+		<value>Bletooth　設定失敗</value>
+    </data>
+	<data name="error_ble_disabled_description">
+		<value>Bletooth設定が有効になっているか確認してから起動して下さい。</value>
+    </data>
+
+	<!-- その他共通にすべき文言 -->
+	<data name="auto_search_vehicle_splash">
+		<value>自動乗車可能な車両を検索中</value>
+    </data>
+	<data name="shared_already_invoked_permission_request">
+		<value>ALREADY_REQUESTED_PERMISSION</value>
+    </data>
+	<data name="permission_rationable">
+		<value>モバたこで位置情報を取得するために必要な権限です。</value>
+    </data>
+	<data name="permission_announce_background_gps_title">
+		<value>位置情報アクセスについて</value>
+    </data>
+	<data name="permission_announce_background_gps">
+		<value>モバたこ位置情報をバックグラウンドで送信します。クラウド管理アプリで位置情報を表示する為に必要な情報ですので、直後に表示される許可ダイアログで「常に許可」を選択してください。</value>
+    </data>
+	<data name="blepermission_rationable">
+		<value>モバたこでデジタコ連動するために Bletooth をオンにする必要があります。</value>
+    </data>
+	<data name="permission_ok">
+		<value>OK</value>
+    </data>
+	<data name="permission_error_description">
+		<value>位置情報はモバたこで必要な機能です。設定画面で権限を追加して下さい。</value>
+    </data>
+	<data name="permission_setting">
+		<value>設定画面を開く</value>
+    </data>
+	<data name="error_nfc_setting">
+		<value>NFC が有効になっていません。設定画面で有効にしてください。</value>
+    </data>
+	<data name="warn_nfc_setting">
+		<value>NFC が有効になっていません。NFC を利用した自動乗車をご利用する場合は設定画面で有効にしてください。</value>
+    </data>
+	<data name="choosing_vehicle_screen_label">
+		<value>乗車する車両を選択してください。</value>
+    </data>
+	<data name="choosing_vehicle_change_condition_button">
+		<value>表示条件</value>
+    </data>
+	<data name="choosing_vehicle_change_research_button">
+		<value>車両を再検索する</value>
+    </data>
+	<data name="choosing_vehicle_is_riding">
+		<value>乗車中</value>
+    </data>
+	<data name="choosing_vehicle_condition_description">
+		<value>表示条件</value>
+    </data>
+	<data name="choosing_vehicle_condition_car_label">
+		<value>車両名</value>
+    </data>
+	<data name="choosing_vehicle_conditon_car_hint">
+		<value>検索する車両名を入力</value>
+    </data>
+	<data name="choosing_vehicle_condition_getoff_only_checkbox">
+		<value>乗車可能な車両のみ表示</value>
+    </data>
+	<data name="choosing_vehicle_progress_description">
+		<value>検索中です</value>
+    </data>
+	<data name="choosing_vehicle_condition_button">
+		<value>表示変更</value>
+    </data>
+	<data name="start_crewing_announcement">
+		<value>で乗務を開始しますか？</value>
+    </data>
+	<data name="start_crewing_start_button">
+		<value>乗務開始する</value>
+    </data>
+	<data name="start_crewing_cancel_button">
+		<value>キャンセル</value>
+    </data>
+	<data name="start_crewing_progress_description">
+		<value>乗務開始中です。お待ちください。</value>
+    </data>
+	<data name="end_crewing_end_crewing_button">
+		<value>乗務終了する</value>
+    </data>
+	<data name="end_crewing_cancel_button">
+		<value>キャンセル</value>
+    </data>
+	<data name="end_crewing_description">
+		<value>の運行を終了しますか？</value>
+    </data>
+	<data name="end_crewing_dialog_description">
+		<value>乗務終了理由を選択してください</value>
+    </data>
+	<data name="end_crewing_dialog_leaving">
+		<value>帰庫</value>
+    </data>
+	<data name="end_crewing_dialog_loading">
+		<value>宿泊</value>
+    </data>
+	<data name="end_crewing_dialog_cancel">
+		<value>キャンセル</value>
+    </data>
+	<data name="sending_tacho_splash_description">
+		<value>データ送信中・・・\n車両の電源は切らないでください。</value>
+    </data>
+	<data name="after_crewing_choose_vehicle_button">
+		<value>車両を選択する</value>
+    </data>
+	<data name="error_end_crewing">
+		<value>乗務終了失敗</value>
+    </data>
+	<data name="error_end_crewing_description">
+		<value>乗務終了処理に失敗しました。通信状況を確認してから再度乗務終了をしてください。</value>
+    </data>
+	<data name="home_digitacho_connected">
+		<value>接続中</value>
+    </data>
+	<data name="home_digitacho_disconnected">
+		<value>非接続</value>
+    </data>
+	<data name="error_autoriding_description">
+		<value>自動乗車に失敗しました。手動で車両を選択してください。</value>
+    </data>
+	<data name="error_tacho_title">
+		<value>デジタコ連動失敗</value>
+    </data>
+	<data name="error_tacho_detail">
+		<value>デジタコとの通信に失敗しました。失敗が続く場合は、バックアップ用SDカード用いて運行記録を取得してください。</value>
+    </data>
+	<data name="error_tacho_retry_button_label">
+		<value>再接続</value>
+    </data>
+	<data name="error_tacho_end_button_label">
+		<value>乗務終了</value>
+    </data>
+	<data name="error_end_crewing_wo_tachodata_confirm_description">
+		<value>デジタコデータが日報に反映されません。乗務を終了しますか？</value>
+    </data>
+	<data name="error_end_crewing_wo_tachodata_confirm_ok_label">
+		<value>OK</value>
+    </data>
+	<data name="error_end_crewing_wo_tachodata_confirm_cancel_label">
+		<value>キャンセル</value>
+    </data>
+	<data name="warn_disable_logitacho">
+		<value>ロジたこと接続できません。</value>
+    </data>
+	<data name="warn_disable_logitacho_description">
+		<value>ロジたことの接続に失敗したため、運行記録はSDカードより取得してください。</value>
+    </data>
+	<data name="warn_disable_logitcho_question">
+		<value>「戻る」を押して再度車両を押してください。\n警告が続く場合は「再起動」を押してください。\nロジたこと非接続で運行する場合は「非接続」を押してください。但し、この場合はロジたこのデータは取得できません。</value>
+    </data>
+	<data name="warn_disable_logitacho_cancel">
+		<value>戻る</value>
+    </data>
+	<data name="warn_disable_logitacho_start">
+		<value>非接続</value>
+    </data>
+	<data name="warn_disable_logitacho_terminate">
+		<value>再起動</value>
+    </data>
+	<data name="transit_vehicle_choose_dialog_announce">
+		<value>降車後の作業を選択してください。</value>
+    </data>
+	<data name="transit_vehicle_choose_work_dialog_getoff_button">
+		<value>降車</value>
+    </data>
+	<data name="transit_vehicle_choose_work_dialog_cancel_button">
+		<value>キャンセル</value>
+    </data>
+	<data name="error_transit_failed">
+		<value>乗務降車失敗</value>
+    </data>
+	<data name="start_crewing_by_transit_announce">
+		<value>に乗り換えますか？</value>
+    </data>
+	<data name="start_crewing_start_by_transit_button">
+		<value>乗換する</value>
+    </data>
+	<data name="start_crewing_by_transit_cancel_button">
+		<value>キャンセル</value>
+    </data>
+	<data name="error_transit_failed">
+		<value>乗換降車失敗</value>
+    </data>
+	<data name="error_transit_failed_description">
+		<value>乗換降車に失敗しました。しばらくして操作するか管理者へご連絡ください。</value>
+    </data>
+	<data name="choosing_stop_work_state">
+		<value>停車しました。停車後の作業を選択してください。</value>
+    </data>
+	<data name="emp_load_confirm">
+		<value>実車空車確認</value>
+    </data>
+	<data name="emp_load_confirm_description">
+		<value>作業変更に伴い、空車にしますか？</value>
+    </data>
+	<data name="emp_load_confirm_ok">
+		<value>空車にする</value>
+    </data>
+	<data name="emp_load_confirm_cancel">
+		<value>空車にしない</value>
+    </data>
+	<data name="after_crewing_announce">
+		<value>安全運転お疲れ様でした。\n引き続く乗務を行う場合、車両を選択してください。</value>
+    </data>
+	<data name="after_crewing_transit_announce">
+		<value>安全運転お疲れ様でした。乗り換える車両を選択してください。</value>
+    </data>
+	<data name="after_crewing_work_state_label">
+		<value>乗務終了</value>
+    </data>
+	<data name="after_crewing_work_state_label_of_transit">
+		<value>乗務中</value>
+    </data>
+	<data name="error_ble_disconnect">
+		<value>デジたことの接続が切断になりました。エンジンoff/onもしくはモバたこアプリを再起動して接続再開でしてください。</value>
+    </data>
+	<data name="error_ble_disconnect_ok">
+		<value>OK</value>
+    </data>
+	<data name="error_ble_disconnect_reboot">
+		<value>再起動</value>
+    </data>
+	<data name="refuel_dialog_title">
+		<value>給油所を選択</value>
+    </data>
+	<data name="refuel_dialog_close_button">
+		<value>閉じる</value>
+    </data>
+	<data name="input_refuel_dialog_title">
+		<value>給油量を入力</value>
+    </data>
+	<data name="input_refuel_dialog_close_button">
+		<value>閉じる</value>
+    </data>
+	<data name="input_refuel_dialog_send_button">
+		<value>送信</value>
+    </data>
+	<data name="speed_warning_dialog_title">
+		<value>速度注意</value>
+    </data>
+	<data name="speed_warning_dialog_description">
+		<value>スピードに注意してください</value>
+    </data>
+	<data name="speed_warning_dialog_close_button">
+		<value>閉じる</value>
+    </data>
+	<data name="first_reboot_dialog_title">
+		<value>初回再起動確認</value>
+    </data>
+	<data name="first_reboot_dialog_description">
+		<value>初回時のみ再起動が必要です。\n再起動ボタンを押してアプリを再起動してください。</value>
+    </data>
+</root>
+

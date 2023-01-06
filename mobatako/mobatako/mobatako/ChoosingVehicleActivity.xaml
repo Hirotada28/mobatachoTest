@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="mobatako.ChoosingVehicleActivity"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="乗車する車両を選択して" FontSize="30" HorizontalOptions="Center" />
+            <Label Text="ください。" FontSize="30" HorizontalOptions="Center" />
+
+            <ListView x:Name="vehicleList" ItemSelected="OnVehicleSelected" Margin="5,20,5,5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Label Text="{Binding vehicleName}" FontAttributes="Bold" HorizontalOptions="Start" Margin="5,15,10,10"/>
+                                <Label x:Name="ridingLavel" Text="{Binding rideTypeLavel}" FontAttributes="Bold" HorizontalOptions="End" BackgroundColor="SkyBlue" Margin="5,15,10,10" IsVisible="true"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="表示条件" Clicked="ConditionButton" TextColor="White" FontSize="20" Background="#3399ff" Margin="30,5,30,5"/>
+            <Button Text="車両を再検索する" Clicked="ResarchButton" TextColor="White" FontSize="20" Background="#3399ff" Margin="30,5,30,5"/>
+            <Label Text="[0102]" VerticalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="End" Margin="0, 0, 20, 20"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

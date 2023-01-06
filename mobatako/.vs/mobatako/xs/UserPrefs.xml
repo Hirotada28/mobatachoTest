@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{2FAA5AE6-FBC3-4554-9D9C-635F4A7F65E3}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.ItemProperties.mobatako.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4CFA6BB6-2369-4925-9420-3E5DD2F6D7CB" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mobatako/mobatako/Splash.xaml.cs">
+    <Files>
+      <File FileName="mobatako/mobatako/ChoosingVehicleActivity.xaml.cs" />
+      <File FileName="mobatako/mobatako/ChoosingVehicleConditionDialog.xaml.cs" />
+      <File FileName="mobatako/mobatako.Android/Properties/AndroidManifest.xml" />
+      <File FileName="mobatako/mobatako/Splash.xaml.cs" Line="160" Column="96" />
+      <File FileName="mobatako/mobatako/Splash.xaml" Line="12" Column="99" />
+      <File FileName="mobatako/mobatako/App.xaml.cs" Line="12" Column="56" />
+      <File FileName="mobatako/mobatako.iOS/Info.plist" />
+      <File FileName="mobatako/mobatako/Login.xaml.cs" />
+      <File FileName="mobatako/mobatako/Login.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mobatako" expanded="True">
+            <Node name="mobatako" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="common" expanded="True" />
+              <Node name="model" expanded="True" />
+              <Node name="utils" expanded="True">
+                <Node name="network" expanded="True" />
+              </Node>
+              <Node name="ActivityAutoSearchingVehicleSplash.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ChoosingVehicleActivity.xaml" expanded="True" />
+              <Node name="ChoosingVehicleConditionDialog.xaml" expanded="True" />
+              <Node name="Login.xaml" expanded="True" />
+              <Node name="SendingTachoDataActivity.xaml" expanded="True" />
+              <Node name="Splash.xaml" expanded="True" />
+              <Node name="StartCrewingConfirmActivity.xaml" expanded="True" />
+              <Node name="TransitRidingVehicleConfirmActivity.xaml" expanded="True" />
+              <Node name="TransitVehicleChooseWorkDialog.xaml" expanded="True" />
+            </Node>
+            <Node name="mobatako.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="mobatako.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.mobatako.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+</Properties>

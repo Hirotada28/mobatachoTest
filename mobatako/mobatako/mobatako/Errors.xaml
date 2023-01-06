@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="mobatako.Errors"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="サービス利用不能エラー" Clicked="ServiceUnavailableError"/>
+            <Button Text="ログインエラー" Clicked="LoginError"/>
+            <Button Text="Gate API 応答エラー" Clicked="GateAPIResponseError"/>
+            <Button Text="ネットワークエラー" Clicked="NetworkError"/>
+            <Button Text="デジたこ応答エラー" Clicked="TachoResponseError"/>
+            <Button Text="GPS応答エラー" Clicked="GpsResponseError"/>
+            <Button Text="乗務開始忘れ" Clicked="ForgetStartCrewing"/>
+            <Button Text="乗務終了忘れ" Clicked="ForgetEndCrewing"/>
+            <Button Text="戻る" Clicked="Back"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

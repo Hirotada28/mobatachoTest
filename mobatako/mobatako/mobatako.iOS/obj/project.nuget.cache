@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XrGdDPiE7NWly6bnUWRPF50xLscLRKwkTFhUWTx5RbQJSc9Vc57FHdSBxbekRFsjOEroZtkOtpebqqIoryTMxA==",
+  "success": true,
+  "projectFilePath": "/Users/yukachin/systec_mobatacho/mobatako/mobatako/mobatako.iOS/mobatako.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/yukachin/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/plugin.permissions/6.0.1/plugin.permissions.6.0.1.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/xam.plugin.geolocator/4.5.0.6/xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/xamarin.communitytoolkit/2.0.5/xamarin.communitytoolkit.2.0.5.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/xamarin.essentials/1.7.4/xamarin.essentials.1.7.4.nupkg.sha512",
+    "/Users/yukachin/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="mobatako.ChoosingVehicleConditionDialog"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="#CCE5FF" Padding="5" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="260" HeightRequest="30" CornerRadius="15" BorderColor="Gray">
+                <Label Text="表示条件" HorizontalTextAlignment="Center" FontSize="20" TextColor="Black"/>
+            </Frame>
+
+            <StackLayout>
+                <Label Text="車両名" VerticalTextAlignment="Start"/>
+                <Entry x:Name="choosingConditionVehicleName" Placeholder="検索する車両名を入力" VerticalTextAlignment="Start"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <CheckBox x:Name="choosingVehicleGetOffOnly" VerticalOptions="Center"/>
+                <Label Text="乗車可能な車両のみ検索" VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+            <Button Text="表示変更" Clicked="ChangeConditionButton"/>
+            <Label Text="[0103]" VerticalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="End" Margin="0, 0, 20, 20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

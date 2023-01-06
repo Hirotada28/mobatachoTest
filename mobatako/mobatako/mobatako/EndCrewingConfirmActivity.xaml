@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="mobatako.EndCrewingConfirmActivity"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="endCrewingVehicleNameLabel" Text="[choosedVehicle]" FontSize="30" HorizontalOptions="Center" Margin="10,80,10,10"/>
+            <Label x:Name="endCrewingDescriptionLabel" Text="の運行を終了しますか？" FontSize="25" HorizontalOptions="Center"  Margin="10,10,10,80"/>
+            <Button x:Name="endCrewingEndCrewingButton" Text="乗務終了する" Clicked="EndCrewingButton" TextColor="White" FontSize="20" Background="#3399ff" Margin="30,5,30,5"/>
+            <Button x:Name="endCrewingCancelButton" Text="キャンセル" Clicked="EndCrewingCancalButton" TextColor="#3399ff" FontSize="20" Background="white" BorderColor="#3399ff" BorderWidth="1" Margin="30,5,30,5"/>
+            <Label Text="[0303]" VerticalOptions="FillAndExpand" HorizontalTextAlignment="End" VerticalTextAlignment="End" Margin="0, 0, 20, 20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
